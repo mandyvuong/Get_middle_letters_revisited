@@ -18,9 +18,9 @@ get_middle("of") # => "of"
 
 ## Planning
 
-| Input get_middle(word :string) | Output | Description                               |
-| ------------------------------ | ------ | ----------------------------------------- |
-| 'A'                            | 'A'    | returns input since length == 1           |
-| 'of'                           | 'of'   | returns input since length == 2           |
-| 'testing'                      | 't'    | returns middle letter since length is odd |
-| 'test'                         | 'es'   | returns 2 letters since length is even    |
+| Input get_middle(word :string) | Output | Description                                       |
+| ------------------------------ | ------ | ------------------------------------------------- |
+| 'A'                            | 'A'    | returns input since length == 1                   |
+| 'of'                           | 'of'   | returns input since length == 2                   |
+| 'testing'                      | 't'    | returns middle letter if string length is odd     |
+| 'test'                         | 'es'   | returns 2 middle letters if string length is even |
