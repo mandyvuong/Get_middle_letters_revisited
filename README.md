@@ -24,3 +24,13 @@ get_middle("of") # => "of"
 | 'of'                           | 'of'   | returns input since length == 2                   |
 | 'testing'                      | 't'    | returns middle letter if string length is odd     |
 | 'test'                         | 'es'   | returns 2 middle letters if string length is even |
+
+## Notes
+
+This is post Makers Academy where I returned to full-time employment and have limited time to code. I've given myself small coding challenges by revisiting TDD in Ruby from the Makers Academy process workshops.
+
+I attempted this during Makers Academy course and looking at the previous attempt I've noticed the following improvements:
+
+- Refactored
+- Started with simplest test first
+- Ternary operator used here compared to if/else expression in previous attempt
