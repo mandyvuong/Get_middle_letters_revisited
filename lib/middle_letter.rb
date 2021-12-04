@@ -1,3 +1,4 @@
 def get_middle(word)
-  word.length.odd? ? word[word.length/2] : word[word.length/2-1] + word[word.length/2]
+  index = word.length/2
+  word.length.odd? ? word[index] : word[index - 1..index]
 end
